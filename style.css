@@ -1,0 +1,19 @@
+.container{
+    border-color: white;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    @media (min-width: "500px") and (max-width: "1200px") {
+        width: 100%;
+    }
+
+    width: 16%;
+    height: 200px;
+    background-color: blue; 
+    border: 3px solid white 
+}
